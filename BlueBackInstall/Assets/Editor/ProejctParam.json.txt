@@ -1,0 +1,62 @@
+{
+    "namespace_author":"BlueBack",
+    "namespace_package":"Install",
+    "git_url":"https://github.com/bluebackblue/UpmInstall",
+    "git_api":"https://api.github.com/repos/bluebackblue/UpmInstall",
+    "git_path":"BlueBackInstall/Assets/UPM",
+    "discription_simple":"パッケージマネージャー操作",
+    "discription_detal":[
+        "スプライト表示",
+    ],
+    "keyword":[
+        "packagemanager"
+    ],
+    "changelog":[
+        "# Changelog",
+        "",
+        "## [0.0.0] - 2022-04-04",
+        "### Changes",
+        "- Init",
+        ""
+    ],
+    "root_readmemd_path":"../../README.md",
+    "need_unity_version":"2020.1",
+    "asmdef_runtime":{
+        "define_list":[
+        ],
+        "reference_list":[
+            {
+                "mode":"package",
+                "package_fullname":"BlueBack.PoolList",
+                "url":"https://github.com/bluebackblue/UpmUnityPoolList"
+            },
+            {
+                "mode":"package",
+                "package_fullname":"Unity.Mathematics",
+                "url":"https://docs.unity3d.com/Packages/com.unity.mathematics@latest/index.html"
+            }
+        ]
+    },
+    "asmdef_editor":{
+        "define_list":[
+        ],
+        "reference_list":[
+            {
+                "mode":"package",
+                "package_fullname":"BlueBack.Install",
+                "url":"https://github.com/bluebackblue/UpmInstall"
+            }
+        ]
+    },
+    "asmdef_sample":{
+        "define_list":[
+        ],
+        "reference_list":[
+            {
+                "mode":"package",
+                "package_fullname":"BlueBack.Install",
+                "url":"https://github.com/bluebackblue/UpmInstall"
+            }
+        ]
+    }
+}
