@@ -1,5 +1,6 @@
 # BlueBack.Install
-スプライト表示
+パッケージマネージャー操作
+* インストール
 
 ## ライセンス
 MIT License

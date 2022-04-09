@@ -21,6 +21,13 @@
       "dependencies": {},
       "hash": "69782eb2dc4b577a5dab4fa7bc5777174e1d2a23"
     },
+    "blueback.console": {
+      "version": "https://github.com/bluebackblue/UpmConsole.git?path=BlueBackConsole/Assets/UPM",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ab67a342477ea7b16a0def5f97aad44b8d24c908"
+    },
     "blueback.excel": {
       "version": "https://github.com/bluebackblue/UpmExcel.git?path=BlueBackExcel/Assets/UPM",
       "depth": 0,
