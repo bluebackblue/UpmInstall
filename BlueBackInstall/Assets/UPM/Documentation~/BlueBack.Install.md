@@ -8,8 +8,6 @@ MIT License
 
 ## 依存 / 使用ライセンス等
 ### ランタイム
-* https://github.com/bluebackblue/UpmUnityPoolList
-* https://docs.unity3d.com/Packages/com.unity.mathematics@latest/index.html
 ### エディター
 * https://github.com/bluebackblue/UpmInstall
 ### サンプル
