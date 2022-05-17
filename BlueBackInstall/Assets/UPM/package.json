@@ -1,1 +1,1 @@
-{"samples":[],"dependencies":{},"keyword":["packagemanager"],"author":{"url":"https://github.com/bluebackblue/UpmInstall","name":"BlueBack"},"discription":"パッケージマネージャー操作","unity":"2020.1","version":"0.0.2","displayName":"BlueBack.Install","name":"blueback.install"}
+{"samples":[{"path":"Samples~/Simple","displayName":"Simple"}],"dependencies":{},"keyword":["packagemanager"],"author":{"url":"https://github.com/bluebackblue/UpmInstall","name":"BlueBack"},"discription":"パッケージマネージャー操作","unity":"2020.1","version":"0.0.3","displayName":"BlueBack.Install","name":"blueback.install"}

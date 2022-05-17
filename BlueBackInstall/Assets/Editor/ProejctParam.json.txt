@@ -34,9 +34,141 @@
 		"reference_list":[
 			{
 				"mode":"package",
+				"package_fullname":"BlueBack.AssetLib",
+				"url":"https://github.com/bluebackblue/UpmAssetLib",
+ 				"define_package_pathname":"blueback.assetlib"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Audio",
+				"url":"https://github.com/bluebackblue/UpmAudio",
+ 				"define_package_pathname":"blueback.audio"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Code",
+				"url":"https://github.com/bluebackblue/UpmCode",
+ 				"define_package_pathname":"blueback.code"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Console",
+				"url":"https://github.com/bluebackblue/UpmConsole",
+ 				"define_package_pathname":"blueback.console"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.DrawInstance",
+				"url":"https://github.com/bluebackblue/UpmDrawInstance",
+ 				"define_package_pathname":"blueback.drawinstance"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Excel",
+				"url":"https://github.com/bluebackblue/UpmExcel",
+ 				"define_package_pathname":"blueback.excel"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Font",
+				"url":"https://github.com/bluebackblue/UpmFont",
+ 				"define_package_pathname":"blueback.font"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Gl",
+				"url":"https://github.com/bluebackblue/UpmGl",
+ 				"define_package_pathname":"blueback.gl"
+			},
+			{
+				"mode":"package",
 				"package_fullname":"BlueBack.Install",
 				"url":"https://github.com/bluebackblue/UpmInstall",
  				"define_package_pathname":"blueback.install"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.JsonItem",
+				"url":"https://github.com/bluebackblue/UpmJsonItem",
+ 				"define_package_pathname":"blueback.jsonitem"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Math",
+				"url":"https://github.com/bluebackblue/UpmMath",
+ 				"define_package_pathname":"blueback.math"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Mouse",
+				"url":"https://github.com/bluebackblue/UpmMouse",
+ 				"define_package_pathname":"blueback.mouse"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Pad",
+				"url":"https://github.com/bluebackblue/UpmPad",
+ 				"define_package_pathname":"blueback.pad"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.PoolList",
+				"url":"https://github.com/bluebackblue/UpmPoolList",
+ 				"define_package_pathname":"blueback.poollist"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Request",
+				"url":"https://github.com/bluebackblue/UpmRequest",
+ 				"define_package_pathname":"blueback.request"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Scene",
+				"url":"https://github.com/bluebackblue/UpmScene",
+ 				"define_package_pathname":"blueback.scene"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.SlackWebApi",
+				"url":"https://github.com/bluebackblue/UpmSlackWebApi",
+ 				"define_package_pathname":"blueback.slackwebapi"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.TestLib",
+				"url":"https://github.com/bluebackblue/UpmTestLib",
+ 				"define_package_pathname":"blueback.testlib"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.TimeScale",
+				"url":"https://github.com/bluebackblue/UpmTimeScale",
+ 				"define_package_pathname":"blueback.timescale"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.UnityPlayerLoop",
+				"url":"https://github.com/bluebackblue/UpmUnityPlayerLoop",
+ 				"define_package_pathname":"blueback.unityplayerloop"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.VariableDigit",
+				"url":"https://github.com/bluebackblue/UpmVariableDigit",
+ 				"define_package_pathname":"blueback.variabledigit"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.VersionManager",
+				"url":"https://github.com/bluebackblue/UpmVersionManager",
+ 				"define_package_pathname":"blueback.versionmanager"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Vosk",
+				"url":"https://github.com/bluebackblue/UpmVosk",
+ 				"define_package_pathname":"blueback.vosk"
 			}
 		]
 	},
@@ -49,6 +181,12 @@
 				"package_fullname":"BlueBack.Install",
 				"url":"https://github.com/bluebackblue/UpmInstall",
  				"define_package_pathname":"blueback.install"
+			},
+			{
+				"mode":"package",
+				"package_fullname":"BlueBack.Install.Editor",
+				"url":"https://github.com/bluebackblue/UpmInstall",
+				"define_package_pathname":"blueback.install"
 			}
 		]
 	}

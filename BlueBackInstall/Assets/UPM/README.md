@@ -9,7 +9,29 @@ MIT License
 ## 依存 / 使用ライセンス等
 ### ランタイム
 ### エディター
+* https://github.com/bluebackblue/UpmAssetLib
+* https://github.com/bluebackblue/UpmAudio
+* https://github.com/bluebackblue/UpmCode
+* https://github.com/bluebackblue/UpmConsole
+* https://github.com/bluebackblue/UpmDrawInstance
+* https://github.com/bluebackblue/UpmExcel
+* https://github.com/bluebackblue/UpmFont
+* https://github.com/bluebackblue/UpmGl
 * https://github.com/bluebackblue/UpmInstall
+* https://github.com/bluebackblue/UpmJsonItem
+* https://github.com/bluebackblue/UpmMath
+* https://github.com/bluebackblue/UpmMouse
+* https://github.com/bluebackblue/UpmPad
+* https://github.com/bluebackblue/UpmPoolList
+* https://github.com/bluebackblue/UpmRequest
+* https://github.com/bluebackblue/UpmScene
+* https://github.com/bluebackblue/UpmSlackWebApi
+* https://github.com/bluebackblue/UpmTestLib
+* https://github.com/bluebackblue/UpmTimeScale
+* https://github.com/bluebackblue/UpmUnityPlayerLoop
+* https://github.com/bluebackblue/UpmVariableDigit
+* https://github.com/bluebackblue/UpmVersionManager
+* https://github.com/bluebackblue/UpmVosk
 ### サンプル
 * https://github.com/bluebackblue/UpmInstall
 
@@ -18,7 +40,7 @@ Unity 2022.1.0b16
 
 ## UPM
 ### 最新
-* https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM#0.0.2
+* https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM#0.0.3
 ### 開発
 * https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM
 

@@ -22,7 +22,7 @@ namespace BlueBack.Install.Editor
 
 		/** MenuItem_UpdatePackage_Develop
 		*/
-		#if(!DEF_USER_BLUEBACK_INSTALL)
+		#if(!USERDEF_BLUEBACK_INSTALL)
 		[UnityEditor.MenuItem("BlueBack/Install/UpdatePackage/Develop")]
 		#endif
 		public static void MenuItem_UpdatePackage_Develop()
@@ -40,7 +40,7 @@ namespace BlueBack.Install.Editor
 
 		/** MenuItem_UpdatePackage_Last
 		*/
-		#if(!DEF_USER_BLUEBACK_INSTALL)
+		#if(!USERDEF_BLUEBACK_INSTALL)
 		[UnityEditor.MenuItem("BlueBack/Install/UpdatePackage/Last " + Version.packageversion)]
 		#endif
 		public static void MenuItem_UpdatePackage_Last()
