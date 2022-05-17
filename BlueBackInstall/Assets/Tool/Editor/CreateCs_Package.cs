@@ -59,6 +59,14 @@ namespace Tool
 				"com.unity.mathematics",
 				"com.unity.burst",
 				"com.unity.ugui",
+				"com.unity.inputsystem",
+				"com.unity.ide.visualstudio",
+				"com.unity.ide.vscode",
+				"com.unity.ide.rider",
+				"com.unity.test-framework",
+				"com.unity.textmeshpro",
+				"com.unity.timeline",
+				"com.unity.collab-proxy",
 			};
 
 			//Package_BlueBack
@@ -292,7 +300,7 @@ namespace Tool
 				System.Collections.Generic.Dictionary<string,string> t_replace_list = new System.Collections.Generic.Dictionary<string,string>();
 				{
 					for(int ii=0;ii<t_unity_list.Length;ii++){
-						t_replace_list.Add("<<Name." + ii.ToString()  + ">>",t_unity_list[ii].Replace('.','_'));
+						t_replace_list.Add("<<Name." + ii.ToString()  + ">>",t_unity_list[ii].Replace('.','_').Replace('-','_'));
 						t_replace_list.Add("<<name." + ii.ToString()  + ">>",t_unity_list[ii].ToLower());
 						t_replace_list.Add("<<NAME." + ii.ToString()  + ">>",t_unity_list[ii].ToUpper());
 					}
