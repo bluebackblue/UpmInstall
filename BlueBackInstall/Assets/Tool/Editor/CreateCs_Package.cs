@@ -159,7 +159,7 @@ namespace Tool
 				}
 
 				System.Text.StringBuilder t_stringbuilder = new System.Text.StringBuilder();
-				BlueBack.Code.Convert.Replace(t_stringbuilder,t_replace_list,t_template);
+				BlueBack.Code.Convert.Add(t_stringbuilder,t_replace_list,t_template);
 
 				BlueBack.AssetLib.Editor.SaveTextWithAssetsPath.Save(t_stringbuilder.ToString(),"UPM/Editor/BlueBack/Install/Editor/Package_BlueBack.cs",System.Text.Encoding.UTF8,BlueBack.AssetLib.LineFeedOption.CRLF);
 				BlueBack.AssetLib.Editor.RefreshAssetDatabase.Refresh();
@@ -220,7 +220,7 @@ namespace Tool
 				}
 
 				System.Text.StringBuilder t_stringbuilder = new System.Text.StringBuilder();
-				BlueBack.Code.Convert.Replace(t_stringbuilder,t_replace_list,t_template);
+				BlueBack.Code.Convert.Add(t_stringbuilder,t_replace_list,t_template);
 
 				BlueBack.AssetLib.Editor.SaveTextWithAssetsPath.Save(t_stringbuilder.ToString(),"UPM/Editor/BlueBack/Install/Editor/Package_BlueBack_All.cs",System.Text.Encoding.UTF8,BlueBack.AssetLib.LineFeedOption.CRLF);
 				BlueBack.AssetLib.Editor.RefreshAssetDatabase.Refresh();
@@ -307,7 +307,7 @@ namespace Tool
 				}
 
 				System.Text.StringBuilder t_stringbuilder = new System.Text.StringBuilder();
-				BlueBack.Code.Convert.Replace(t_stringbuilder,t_replace_list,t_template);
+				BlueBack.Code.Convert.Add(t_stringbuilder,t_replace_list,t_template);
 
 				BlueBack.AssetLib.Editor.SaveTextWithAssetsPath.Save(t_stringbuilder.ToString(),"UPM/Editor/BlueBack/Install/Editor/Package_Unity.cs",System.Text.Encoding.UTF8,BlueBack.AssetLib.LineFeedOption.CRLF);
 				BlueBack.AssetLib.Editor.RefreshAssetDatabase.Refresh();
