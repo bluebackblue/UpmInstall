@@ -73,7 +73,7 @@ namespace Tool
 			{
 				System.Collections.Generic.List<string> t_template = new System.Collections.Generic.List<string>();
 				{
-					BlueBack.Code.Convert.Add(t_template,new string[]{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
 						"",
 						"",
 						"/**",
@@ -94,7 +94,7 @@ namespace Tool
 						"	{",
 					});
 
-					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,new string[]{
+					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,0,null,new string[]{
 						"		/** MenuItem_Add_<<Name.<<INDEX>>>>",
 						"		*/",
 						"		#if(!USERDEF_BLUEBACK_<<NAME.<<INDEX>>>>)",
@@ -119,7 +119,7 @@ namespace Tool
 						"",
 					});
 
-					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,new string[]{
+					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,0,null,new string[]{
 						"		/** MenuItem_Remove_<<Name.<<INDEX>>>>",
 						"		*/",
 						"		#if(ASMDEF_BLUEBACK_<<NAME.<<INDEX>>>>)",
@@ -142,7 +142,7 @@ namespace Tool
 						"",
 					});
 
-					BlueBack.Code.Convert.Add(t_template,new string[]{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
 						"	}",
 						"}",
 						"#endif",
@@ -169,7 +169,7 @@ namespace Tool
 			{
 				System.Collections.Generic.List<string> t_template = new System.Collections.Generic.List<string>();
 				{
-					BlueBack.Code.Convert.Add(t_template,new string[]{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
 						"",
 						"",
 						"/**",
@@ -195,14 +195,14 @@ namespace Tool
 						"		{",
 					});
 
-					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,new string[]{
+					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,0,null,new string[]{
 						"			#if(!USERDEF_BLUEBACK_<<NAME.<<INDEX>>>>)",
 						"			Package_BlueBack.MenuItem_Add_<<Name.<<INDEX>>>>();",
 						"			#endif",
 						"",
 					});
 
-					BlueBack.Code.Convert.Add(t_template,new string[]{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
 						"		}",
 						"	}",
 						"}",
@@ -231,7 +231,7 @@ namespace Tool
 			{
 				System.Collections.Generic.List<string> t_template = new System.Collections.Generic.List<string>();
 				{
-					BlueBack.Code.Convert.Add(t_template,new string[]{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
 						"",
 						"",
 						"/**",
@@ -252,7 +252,7 @@ namespace Tool
 						"	{",
 					});
 
-					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_unity_list.Length,new string[]{
+					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_unity_list.Length,0,null,new string[]{
 						"		/** MenuItem_Add_<<Name.<<INDEX>>>>",
 						"		*/",
 						"		[UnityEditor.MenuItem(\"BlueBack/Install/Unity/Add/<<Name.<<INDEX>>>>\")]",
@@ -271,7 +271,7 @@ namespace Tool
 						"",
 					});
 
-					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_unity_list.Length,new string[]{
+					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_unity_list.Length,0,null,new string[]{
 						"		/** MenuItem_Remove_<<Name.<<INDEX>>>>",
 						"		*/",
 						"		[UnityEditor.MenuItem(\"BlueBack/Install/Unity/Remove/<<Name.<<INDEX>>>>\")]",
@@ -290,7 +290,7 @@ namespace Tool
 						"",
 					});
 
-					BlueBack.Code.Convert.Add(t_template,new string[]{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
 						"	}",
 						"}",
 						"#endif",
