@@ -11,6 +11,8 @@
 */
 #if((ASMDEF_BLUEBACK_CODE||USERDEF_BLUEBACK_CODE)&&(ASMDEF_BLUEBACK_ASSETLIB||USERDEF_BLUEBACK_ASSETLIB))
 #define ASMDEF_TRUE
+#else
+#warning "ASMDEF_TRUE"
 #endif
 
 
@@ -68,6 +70,30 @@ namespace Tool
 				"com.unity.timeline",
 				"com.unity.collab-proxy",
 			};
+
+			//チェック。
+			{
+				string t_path = string.Format("{0}/{1}",UnityEngine.Application.dataPath,"../../../");
+				System.Collections.Generic.List<string> t_list = BlueBack.AssetLib.CreateDirectoryNameListWithFullPath.CreateTopOnly(t_path);
+				int ii_max = t_list.Count;
+				for(int ii=0;ii<t_list.Count;ii++){
+					if(System.Array.Exists(t_blueback_list,(string a_a_item)=>{
+						return (("Upm" + a_a_item) == t_list[ii]);
+					}) == false){
+						switch(t_list[ii]){
+						case "config":
+						case "UPMTest":
+							{
+							}break;
+						default:
+							{
+								//「t_blueback_list」に追加が必要。
+								UnityEngine.Debug.LogError(string.Format("NotFound : {0}",t_list[ii]));
+							}break;
+						}
+					}
+				}
+			}
 
 			//Package_BlueBack
 			{

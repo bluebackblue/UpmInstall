@@ -7,7 +7,7 @@
 	"discription_simple":"パッケージマネージャー操作",
 	"discription_detal":[
 		"パッケージマネージャー操作",
-		"* インストール".
+		"* インストール"
 	],
 	"keyword":[
 		"packagemanager"
