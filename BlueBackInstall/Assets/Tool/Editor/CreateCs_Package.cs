@@ -36,6 +36,7 @@ namespace Tool
 				"Audio",
 				"Code",
 				"Console",
+				"Debug",
 				"DrawInstance",
 				"Excel",
 				"Font",
@@ -81,6 +82,7 @@ namespace Tool
 						return (("Upm" + a_a_item) == t_list[ii]);
 					}) == false){
 						switch(t_list[ii]){
+						case "UPM":
 						case "config":
 						case "UPMTest":
 							{

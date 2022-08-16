@@ -37,6 +37,10 @@ namespace BlueBack.Install.Editor
 			Package_BlueBack.MenuItem_Add_Console();
 			#endif
 
+			#if(!USERDEF_BLUEBACK_DEBUG)
+			Package_BlueBack.MenuItem_Add_Debug();
+			#endif
+
 			#if(!USERDEF_BLUEBACK_DRAWINSTANCE)
 			Package_BlueBack.MenuItem_Add_DrawInstance();
 			#endif
