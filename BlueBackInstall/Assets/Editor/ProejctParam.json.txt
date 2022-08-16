@@ -68,6 +68,12 @@
 			},
 			{
 				"mode":"package",
+				"package_fullname":"BlueBack.Debug",
+				"url":"https://github.com/bluebackblue/UpmDebug",
+ 				"define_package_pathname":"blueback.debug"
+			},
+			{
+				"mode":"package",
 				"package_fullname":"BlueBack.DrawInstance",
 				"url":"https://github.com/bluebackblue/UpmDrawInstance",
  				"define_package_pathname":"blueback.drawinstance"
