@@ -19,7 +19,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "0fe2e324e37ced781a01563736b0dce367e6112c"
+      "hash": "984a137dea0d434cc993f319d35f91c758a24120"
     },
     "blueback.console": {
       "version": "https://github.com/bluebackblue/UpmConsole.git?path=BlueBackConsole/Assets/UPM",
@@ -68,21 +68,21 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "f8ef862abb6de1c5c87fbd2c105d7ceb0b3a7349"
+      "hash": "da3a68508a0a2e6ed3b715f2221ee5ae002e46d3"
     },
     "blueback.mouse": {
       "version": "https://github.com/bluebackblue/UpmMouse.git?path=BlueBackMouse/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "49ab107f053a26e0956f4014a13ab2812f8c627d"
+      "hash": "619bf11c8421e733dcf0c448386f1da69172b099"
     },
     "blueback.pad": {
       "version": "https://github.com/bluebackblue/UpmPad.git?path=BlueBackPad/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "dc515987e9d80c7f706efbb6d33a716ae2ef96c4"
+      "hash": "57ec9d7a352c288ba562dbba0be6f17b04a485f7"
     },
     "blueback.poollist": {
       "version": "https://github.com/bluebackblue/UpmPoolList.git?path=BlueBackPoolList/Assets/UPM",
@@ -103,28 +103,28 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "dd2c230663bb1ab31506d5a5c2cb2e53700f1cd3"
+      "hash": "c002a19d1094b7fa6947255dffc56a897f5a279e"
     },
     "blueback.slackwebapi": {
       "version": "https://github.com/bluebackblue/UpmSlackWebApi.git?path=BlueBackSlackWebApi/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "db483b3eaf6d83d2588488c8d1c89d29f6ce3a16"
+      "hash": "fa1cf677bd9e9170c43fb7a8bf612db6ee45f27f"
     },
     "blueback.testlib": {
       "version": "https://github.com/bluebackblue/UpmTestLib.git?path=BlueBackTestLib/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b2600a6c7bac12fec3264f7eb9cdf5731a0b62a5"
+      "hash": "5c21d8fe33c38ac205d3e1a77428900a628f5b6a"
     },
     "blueback.timescale": {
       "version": "https://github.com/bluebackblue/UpmTimeScale.git?path=BlueBackTimeScale/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c8633fe65479df8d4d7550ca74f9d0010e76f3ca"
+      "hash": "197a28f3cee40fd7ffb8dd53fd80ad00aba84dc6"
     },
     "blueback.unityplayerloop": {
       "version": "https://github.com/bluebackblue/UpmUnityPlayerLoop.git?path=BlueBackUnityPlayerLoop/Assets/UPM",
@@ -138,21 +138,21 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "5fdf264d4da34040d70a5425eae24406b1b677a6"
+      "hash": "4d5ef52e7c6caaf3db5d76e0a36dd21ecb8f037e"
     },
     "blueback.versionmanager": {
       "version": "https://github.com/bluebackblue/UpmVersionManager.git?path=BlueBackVersionManager/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "e6abdf74f78286b5e3c2e10960470a2db1845c0e"
+      "hash": "2fee0ff36dca0b1623ed02917d3640a253fdc9b9"
     },
     "blueback.vosk": {
       "version": "https://github.com/bluebackblue/UpmVosk.git?path=BlueBackVosk/Assets/UPM",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "f2a95b53ec3cb462c5b3915aac4d38971d2bc501"
+      "hash": "b9bdb18aa15dd1b006046dc78ff2ac93c72950c7"
     },
     "com.unity.ext.nunit": {
       "version": "1.0.6",

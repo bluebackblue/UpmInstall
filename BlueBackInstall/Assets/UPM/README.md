@@ -8,6 +8,7 @@ MIT License
 
 ## 依存 / 使用ライセンス等
 ### ランタイム
+* https://github.com/bluebackblue/UpmDebug
 ### エディター
 * https://github.com/bluebackblue/UpmAssetLib
 * https://github.com/bluebackblue/UpmAudio
@@ -40,7 +41,7 @@ Unity 2022.1.0b16
 
 ## UPM
 ### 最新
-* https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM#0.0.5
+* https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM#0.0.6
 ### 開発
 * https://github.com/bluebackblue/UpmInstall.git?path=BlueBackInstall/Assets/UPM
 
