@@ -152,7 +152,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "a3cf0ee8d7062113000b84ac25b75f8633461608"
+      "hash": "25328b84a25eae6b7504d5a02cf801297916f425"
     },
     "blueback.vosk": {
       "version": "https://github.com/bluebackblue/UpmVosk.git?path=BlueBackVosk/Assets/UPM",
