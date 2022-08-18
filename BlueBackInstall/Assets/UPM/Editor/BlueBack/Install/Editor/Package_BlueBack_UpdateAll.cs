@@ -12,108 +12,108 @@
 #if(UNITY_EDITOR)
 namespace BlueBack.Install.Editor
 {
-	/** Package_BlueBack_All
+	/** Package_BlueBack_UpdateAll
 	*/
-	public static class Package_BlueBack_All
+	public static class Package_BlueBack_UpdateAll
 	{
-		/** MenuItem_AddAll
+		/** MenuItem_UpdateAll
 		*/
-		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/AddAll")]
-		public static void MenuItem_AddAll()
+		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/UpdateAll")]
+		public static void MenuItem_UpdateAll()
 		{
-			#if(!USERDEF_BLUEBACK_ASSETLIB)
+			#if(ASMDEF_BLUEBACK_ASSETLIB)
 			Package_BlueBack.MenuItem_Add_AssetLib();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_AUDIO)
+			#if(ASMDEF_BLUEBACK_AUDIO)
 			Package_BlueBack.MenuItem_Add_Audio();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_CODE)
+			#if(ASMDEF_BLUEBACK_CODE)
 			Package_BlueBack.MenuItem_Add_Code();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_CONSOLE)
+			#if(ASMDEF_BLUEBACK_CONSOLE)
 			Package_BlueBack.MenuItem_Add_Console();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_DEBUG)
+			#if(ASMDEF_BLUEBACK_DEBUG)
 			Package_BlueBack.MenuItem_Add_Debug();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_DRAWINSTANCE)
+			#if(ASMDEF_BLUEBACK_DRAWINSTANCE)
 			Package_BlueBack.MenuItem_Add_DrawInstance();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_EXCEL)
+			#if(ASMDEF_BLUEBACK_EXCEL)
 			Package_BlueBack.MenuItem_Add_Excel();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_FONT)
+			#if(ASMDEF_BLUEBACK_FONT)
 			Package_BlueBack.MenuItem_Add_Font();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_GL)
+			#if(ASMDEF_BLUEBACK_GL)
 			Package_BlueBack.MenuItem_Add_Gl();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_INSTALL)
+			#if(ASMDEF_BLUEBACK_INSTALL)
 			Package_BlueBack.MenuItem_Add_Install();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_JSONITEM)
+			#if(ASMDEF_BLUEBACK_JSONITEM)
 			Package_BlueBack.MenuItem_Add_JsonItem();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_MATH)
+			#if(ASMDEF_BLUEBACK_MATH)
 			Package_BlueBack.MenuItem_Add_Math();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_MOUSE)
+			#if(ASMDEF_BLUEBACK_MOUSE)
 			Package_BlueBack.MenuItem_Add_Mouse();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_PAD)
+			#if(ASMDEF_BLUEBACK_PAD)
 			Package_BlueBack.MenuItem_Add_Pad();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_POOLLIST)
+			#if(ASMDEF_BLUEBACK_POOLLIST)
 			Package_BlueBack.MenuItem_Add_PoolList();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_REQUEST)
+			#if(ASMDEF_BLUEBACK_REQUEST)
 			Package_BlueBack.MenuItem_Add_Request();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_SCENE)
+			#if(ASMDEF_BLUEBACK_SCENE)
 			Package_BlueBack.MenuItem_Add_Scene();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_SLACKWEBAPI)
+			#if(ASMDEF_BLUEBACK_SLACKWEBAPI)
 			Package_BlueBack.MenuItem_Add_SlackWebApi();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_TESTLIB)
+			#if(ASMDEF_BLUEBACK_TESTLIB)
 			Package_BlueBack.MenuItem_Add_TestLib();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_TIMESCALE)
+			#if(ASMDEF_BLUEBACK_TIMESCALE)
 			Package_BlueBack.MenuItem_Add_TimeScale();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_UNITYPLAYERLOOP)
+			#if(ASMDEF_BLUEBACK_UNITYPLAYERLOOP)
 			Package_BlueBack.MenuItem_Add_UnityPlayerLoop();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_VARIABLEDIGIT)
+			#if(ASMDEF_BLUEBACK_VARIABLEDIGIT)
 			Package_BlueBack.MenuItem_Add_VariableDigit();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_VERSIONMANAGER)
+			#if(ASMDEF_BLUEBACK_VERSIONMANAGER)
 			Package_BlueBack.MenuItem_Add_VersionManager();
 			#endif
 
-			#if(!USERDEF_BLUEBACK_VOSK)
+			#if(ASMDEF_BLUEBACK_VOSK)
 			Package_BlueBack.MenuItem_Add_Vosk();
 			#endif
 

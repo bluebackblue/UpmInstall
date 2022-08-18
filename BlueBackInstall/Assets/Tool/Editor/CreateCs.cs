@@ -21,14 +21,14 @@
 #if(UNITY_EDITOR)
 namespace Tool
 {
-	/** CreateCs_Package
+	/** CreateCs
 	*/
-	public static class CreateCs_Package
+	public static class CreateCs
 	{
-		/** MenuItem_Code
+		/** MenuItem_CreateCs
 		*/
-		[UnityEditor.MenuItem("BlueBack/Install/CreateCs_Package")]
-		private static void MenuItem_Code()
+		[UnityEditor.MenuItem("BlueBack/Install/CreateCs")]
+		private static void MenuItem_CreateCs()
 		#if(ASMDEF_TRUE)
 		{
 			string[] t_blueback_list = new string[]{
@@ -194,7 +194,7 @@ namespace Tool
 				BlueBack.AssetLib.Editor.RefreshAssetDatabase.Refresh();
 			}
 
-			//Package_BlueBack_All
+			//Package_BlueBack_AddAll
 			{
 				System.Collections.Generic.List<string> t_template = new System.Collections.Generic.List<string>();
 				{
@@ -213,9 +213,9 @@ namespace Tool
 						"#if(UNITY_EDITOR)",
 						"namespace BlueBack.Install.Editor",
 						"{",
-						"	/** Package_BlueBack_All",
+						"	/** Package_BlueBack_AddAll",
 						"	*/",
-						"	public static class Package_BlueBack_All",
+						"	public static class Package_BlueBack_AddAll",
 						"	{",
 						"		/** MenuItem_AddAll",
 						"		*/",
@@ -252,10 +252,71 @@ namespace Tool
 				System.Text.StringBuilder t_stringbuilder = new System.Text.StringBuilder();
 				BlueBack.Code.Convert.Add(t_stringbuilder,t_replace_list,t_template);
 
-				BlueBack.AssetLib.Editor.SaveTextWithAssetsPath.SaveNoBomUtf8(t_stringbuilder.ToString(),"UPM/Editor/BlueBack/Install/Editor/Package_BlueBack_All.cs",BlueBack.AssetLib.LineFeedOption.CRLF);
+				BlueBack.AssetLib.Editor.SaveTextWithAssetsPath.SaveNoBomUtf8(t_stringbuilder.ToString(),"UPM/Editor/BlueBack/Install/Editor/Package_BlueBack_AddAll.cs",BlueBack.AssetLib.LineFeedOption.CRLF);
 				BlueBack.AssetLib.Editor.RefreshAssetDatabase.Refresh();
 			}
 
+			//Package_BlueBack_UpdateAll
+			{
+				System.Collections.Generic.List<string> t_template = new System.Collections.Generic.List<string>();
+				{
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
+						"",
+						"",
+						"/**",
+						"	Copyright (c) blueback",
+						"	Released under the MIT License",
+						"	@brief パッケージ更新。自動生成。",
+						"*/",
+						"",
+						"",
+						"/** BlueBack.Install.Editor",
+						"*/",
+						"#if(UNITY_EDITOR)",
+						"namespace BlueBack.Install.Editor",
+						"{",
+						"	/** Package_BlueBack_UpdateAll",
+						"	*/",
+						"	public static class Package_BlueBack_UpdateAll",
+						"	{",
+						"		/** MenuItem_UpdateAll",
+						"		*/",
+						"		[UnityEditor.MenuItem(\"BlueBack/Install/BlueBack/UpdateAll\")]",
+						"		public static void MenuItem_UpdateAll()",
+						"		{",
+					});
+
+					BlueBack.Code.Convert.Duplicate(t_template,"<<INDEX>>",t_blueback_list.Length,0,null,new string[]{
+						"			#if(ASMDEF_BLUEBACK_<<NAME.<<INDEX>>>>)",
+						"			Package_BlueBack.MenuItem_Add_<<Name.<<INDEX>>>>();",
+						"			#endif",
+						"",
+					});
+
+					BlueBack.Code.Convert.Add(t_template,null,new string[]{
+						"		}",
+						"	}",
+						"}",
+						"#endif",
+						"",
+					});
+				}
+
+				System.Collections.Generic.Dictionary<string,string> t_replace_list = new System.Collections.Generic.Dictionary<string,string>();
+				{
+					for(int ii=0;ii<t_blueback_list.Length;ii++){
+						t_replace_list.Add("<<Name." + ii.ToString()  + ">>",t_blueback_list[ii]);
+						t_replace_list.Add("<<name." + ii.ToString()  + ">>",t_blueback_list[ii].ToLower());
+						t_replace_list.Add("<<NAME." + ii.ToString()  + ">>",t_blueback_list[ii].ToUpper());
+					}
+				}
+
+				System.Text.StringBuilder t_stringbuilder = new System.Text.StringBuilder();
+				BlueBack.Code.Convert.Add(t_stringbuilder,t_replace_list,t_template);
+
+				BlueBack.AssetLib.Editor.SaveTextWithAssetsPath.SaveNoBomUtf8(t_stringbuilder.ToString(),"UPM/Editor/BlueBack/Install/Editor/Package_BlueBack_UpdateAll.cs",BlueBack.AssetLib.LineFeedOption.CRLF);
+				BlueBack.AssetLib.Editor.RefreshAssetDatabase.Refresh();
+			}
 
 			//Package_Unity
 			{
