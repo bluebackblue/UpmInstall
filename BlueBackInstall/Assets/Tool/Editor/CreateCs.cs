@@ -407,7 +407,6 @@ namespace Tool
 		}
 		#else
 		{
-			#warning "ASMDEF_TRUE"
 		}
 		#endif
 	}
