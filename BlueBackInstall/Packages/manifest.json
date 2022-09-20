@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "blueback.assetlib": "https://github.com/bluebackblue/UpmAssetLib.git?path=BlueBackAssetLib/Assets/UPM",
-    "blueback.audio": "https://github.com/bluebackblue/UpmAudio.git?path=BlueBackAudio/Assets/UPM",
+    "blueback.bgm": "https://github.com/bluebackblue/UpmBgm.git?path=BlueBackBgm/Assets/UPM",
     "blueback.code": "https://github.com/bluebackblue/UpmCode.git?path=BlueBackCode/Assets/UPM",
     "blueback.console": "https://github.com/bluebackblue/UpmConsole.git?path=BlueBackConsole/Assets/UPM",
     "blueback.debug": "https://github.com/bluebackblue/UpmDebug.git?path=BlueBackDebug/Assets/UPM",

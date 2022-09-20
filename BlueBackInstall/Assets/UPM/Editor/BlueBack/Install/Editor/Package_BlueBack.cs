@@ -38,17 +38,17 @@ namespace BlueBack.Install.Editor
 		}
 		#endif
 
-		/** MenuItem_Add_Audio
+		/** MenuItem_Add_Bgm
 		*/
-		#if(!USERDEF_BLUEBACK_AUDIO)
-		#if(ASMDEF_BLUEBACK_AUDIO)
-		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Add/[*]BlueBack.Audio")]
+		#if(!USERDEF_BLUEBACK_BGM)
+		#if(ASMDEF_BLUEBACK_BGM)
+		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Add/[*]BlueBack.Bgm")]
 		#else
-		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Add/[ ]BlueBack.Audio")]
+		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Add/[ ]BlueBack.Bgm")]
 		#endif
-		public static void MenuItem_Add_Audio()
+		public static void MenuItem_Add_Bgm()
 		{
-			string t_name = "https://github.com/bluebackblue/UpmAudio.git?path=BlueBackAudio/Assets/UPM";
+			string t_name = "https://github.com/bluebackblue/UpmBgm.git?path=BlueBackBgm/Assets/UPM";
 			UnityEditor.PackageManager.Requests.AddRequest t_request = UnityEditor.PackageManager.Client.Add(t_name);
 			while(t_request.Status == UnityEditor.PackageManager.StatusCode.InProgress){
 				if(UnityEditor.EditorUtility.DisplayCancelableProgressBar(t_name,t_name,1.0f) == true){
@@ -564,16 +564,16 @@ namespace BlueBack.Install.Editor
 			UnityEditor.EditorUtility.ClearProgressBar();
 		}
 
-		/** MenuItem_Remove_Audio
+		/** MenuItem_Remove_Bgm
 		*/
-		#if(ASMDEF_BLUEBACK_AUDIO)
-		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Remove/[*]BlueBack.Audio")]
+		#if(ASMDEF_BLUEBACK_BGM)
+		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Remove/[*]BlueBack.Bgm")]
 		#else
-		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Remove/[ ]BlueBack.Audio")]
+		[UnityEditor.MenuItem("BlueBack/Install/BlueBack/Remove/[ ]BlueBack.Bgm")]
 		#endif
-		public static void MenuItem_Remove_Audio()
+		public static void MenuItem_Remove_Bgm()
 		{
-			string t_name = "blueback.audio";
+			string t_name = "blueback.bgm";
 			UnityEditor.PackageManager.Requests.RemoveRequest t_request = UnityEditor.PackageManager.Client.Remove(t_name);
 			while(t_request.Status == UnityEditor.PackageManager.StatusCode.InProgress){
 				if(UnityEditor.EditorUtility.DisplayCancelableProgressBar(t_name,t_name,1.0f) == true){

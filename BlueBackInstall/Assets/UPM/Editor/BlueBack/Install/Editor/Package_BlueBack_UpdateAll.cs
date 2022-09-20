@@ -25,8 +25,8 @@ namespace BlueBack.Install.Editor
 			Package_BlueBack.MenuItem_Add_AssetLib();
 			#endif
 
-			#if(ASMDEF_BLUEBACK_AUDIO)
-			Package_BlueBack.MenuItem_Add_Audio();
+			#if(ASMDEF_BLUEBACK_BGM)
+			Package_BlueBack.MenuItem_Add_Bgm();
 			#endif
 
 			#if(ASMDEF_BLUEBACK_CODE)

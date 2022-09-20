@@ -33,7 +33,7 @@ namespace Tool
 		{
 			string[] t_blueback_list = new string[]{
 				"AssetLib",
-				"Audio",
+				"Bgm",
 				"Code",
 				"Console",
 				"Debug",
